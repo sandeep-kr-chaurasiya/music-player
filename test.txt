@@ -1,0 +1,119 @@
+const tracks = [
+  {
+    backgroundImage: "https://c.saavncdn.com/695/Mirzapur-Hindi-2020-20201021132549-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/695/Mirzapur-Hindi-2020-20201021132549-500x500.jpg",
+    title: "Mirzapur Theme Song",
+    album: "MIRZAPUR",
+    year: 2020,
+    artist: "Anand Bhaskar, Anurag Saikia, Neel Adhikari",
+    musicPath: "./assets/music/Mirzapur Theme Song.mp3"
+  },
+  {
+    backgroundImage: "https://c.saavncdn.com/426/Gangs-Of-Wasseypur-Hindi-2012-20221212051137-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/426/Gangs-Of-Wasseypur-Hindi-2012-20221212051137-500x500.jpg",
+    title: "Jiya Ho bihar Ke lala ",
+    album: "Gangs Of Wasseypur",
+    year: 2012,
+    artist: "Manoj Tiwari",
+    musicPath: "./assets/music/Jiya Ho bihar Ke lala.mp3"
+  },
+
+  {
+    backgroundImage: "https://t2.genius.com/unsafe/378x378/https%3A%2F%2Fimages.genius.com%2Faa2a7ddff4e3aa2d7325b2d530fefc34.1000x1000x1.png",
+    posterUrl: "https://t2.genius.com/unsafe/378x378/https%3A%2F%2Fimages.genius.com%2Faa2a7ddff4e3aa2d7325b2d530fefc34.1000x1000x1.png",
+    title: "Hind Ke Sitara",
+    album: "Panchyat",
+    year: 2024,
+    artist: "Manoj Tiwari",
+    musicPath: "./assets/music/Hind Ke Sitara.mp3"
+  },
+  {
+    backgroundImage: "https://c.saavncdn.com/569/Maroon-Color-Sadiya-From-Fasal-Bhojpuri-2024-20240311190717-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/569/Maroon-Color-Sadiya-From-Fasal-Bhojpuri-2024-20240311190717-500x500.jpg",
+    title: "Maroon Color Sadiya",
+    album: "Fasal Bhojpuri",
+    year: 2024,
+    artist: "Neelkamal Singh,kalpana",
+    musicPath: "./assets/music/Maroon Color Sadiya.mp3"
+  },
+  {
+    backgroundImage: "https://c.saavncdn.com/990/83-Hindi-2021-20211223195221-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/990/83-Hindi-2021-20211223195221-500x500.jpg",
+    title: "Lehra Do ",
+    album: "Arijit Singh",
+    year: 2023,
+    artist: "Arijit Singh",
+    musicPath: "./assets/music/Lehra Do _ Ranveer Singh, Kabir Khan _ Pritam, Arijit Singh, Kausar Munir.mp3"
+  }
+
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  MUSIC VOLUME  increase or decrease music volume when change the volume range //
+const playerVolumeRange = document.querySelector("[data-volume]");
+const playerVolumeBtn = document.querySelector("[data-volume-btn]");
+const volumeIcon = playerVolumeBtn.children[0];
+const volumeRangefill = document.getElementById("volumeRangeFill");
+
+// Change volume based on range input
+playerVolumeRange.addEventListener("input", () => {
+  const volume = playerVolumeRange.value;
+  audioPlayer.volume = volume;
+  audioPlayer.muted = false;
+  updateVolumeIcon(volume);
+  updateVolumeRangefill(volume);
+});
+
+// Update volume icon based on volume value
+const updateVolumeIcon = (volume) => {
+  if (volume <= 0.1) {
+    volumeIcon.textContent = "volume_mute";
+  } else if (volume <= 0.5) {
+    volumeIcon.textContent = "volume_down";
+  } else {
+    volumeIcon.textContent = "volume_up";
+  }
+};
+
+// Mute the volume
+const muteVolume = () => {
+  if (audioPlayer.muted) {
+    audioPlayer.muted = false;
+    changeVolume();
+  } else {
+    audioPlayer.muted = true;
+    volumeIcon.textContent = "volume_off";
+  }
+};
+
+playerVolumeBtn.addEventListener("click", muteVolume);
+
+// Update volume range fill based on volume value
+const updateVolumeRangefill = (volume) => {
+  volumeRangefill.style.width = `${volume * 100}%`;
+};
+
+// Initialize volume icon based on initial value
+updateVolumeIcon(playerVolumeRange.value);
+updateVolumeRangefill(playerVolumeRange.value);
