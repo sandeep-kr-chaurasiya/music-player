@@ -4,7 +4,7 @@ A dynamic and interactive Music Player application developed as part of the Code
 
 ## Features ✨
 
-- **Dynamic Playlist Management:** Users can view and manage a playlist of NCS tracks.
+- **Dynamic Playlist Management:** Users can view and manage a playlist of tracks.
 - **Interactive UI:** Sleek design that adapts to all screen sizes, providing an optimal user experience.
 - **Enhanced Audio Controls:** Includes functionalities for play, pause, skip, shuffle, and repeat.
 - **Volume Control:** Easily adjust the volume or mute the music.
