@@ -17,35 +17,6 @@ A dynamic and interactive Music Player application developed as part of the Code
 - **Font Awesome:** For incorporating visually appealing icons.
 - **Google Fonts:** For custom typography.
 
-## Screenshots 📸
-
-![Music Player Screenshot](Screenshots/music_home.png)
-
-## Demo 🚀
-
-Check out the live demo [here](https://kav-music-player.vercel.app/).
-
-## Installation 📦
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/kavyaballa1020/codealpha-music-player.git
-   ```
-
-2. **Navigate to the project directory:**
-   ```bash
-   cd music-player
-   ```
-
-3. **Open `index.html` in your browser:**
-   ```bash
-   open index.html
-   ```
-   or
-   ```bash
-   start index.html
-   ```
-
 ## Usage 🖥️
 
 1. **Play Music:** Click the play button to start playing the selected track.
@@ -63,16 +34,7 @@ Check out the live demo [here](https://kav-music-player.vercel.app/).
   - **js/**: Folder containing JavaScript files.
 - **README.md:** Project documentation.
 
-## Contributing 🤝
 
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
 
 ## License 📄
 
@@ -83,4 +45,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **CodeAlpha:** For the amazing internship opportunity.
 - **Font Awesome:** For the icons.
 - **Google Fonts:** For the typography.
-- **NCS:** For the music tracks used in the demo.
