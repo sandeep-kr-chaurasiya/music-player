@@ -1,43 +1,6 @@
 /* All Music Information */
 const tracks = [
   {
-    backgroundImage: "https://c.saavncdn.com/695/Mirzapur-Hindi-2020-20201021132549-500x500.jpg",
-    posterUrl: "https://c.saavncdn.com/695/Mirzapur-Hindi-2020-20201021132549-500x500.jpg",
-    title: "Mirzapur Theme Song",
-    album: "MIRZAPUR",
-    year: 2020,
-    artist: "Anand Bhaskar, Anurag Saikia, Neel Adhikari",
-    musicPath: "./assets/music/Mirzapur Theme Song.mp3"
-  },
-  {
-    backgroundImage: "https://c.saavncdn.com/426/Gangs-Of-Wasseypur-Hindi-2012-20221212051137-500x500.jpg",
-    posterUrl: "https://c.saavncdn.com/426/Gangs-Of-Wasseypur-Hindi-2012-20221212051137-500x500.jpg",
-    title: "Jiya Ho bihar Ke lala ",
-    album: "Gangs Of Wasseypur",
-    year: 2012,
-    artist: "Manoj Tiwari",
-    musicPath: "./assets/music/Jiya Ho bihar Ke lala.mp3"
-  },
-
-  {
-    backgroundImage: "https://t2.genius.com/unsafe/378x378/https%3A%2F%2Fimages.genius.com%2Faa2a7ddff4e3aa2d7325b2d530fefc34.1000x1000x1.png",
-    posterUrl: "https://t2.genius.com/unsafe/378x378/https%3A%2F%2Fimages.genius.com%2Faa2a7ddff4e3aa2d7325b2d530fefc34.1000x1000x1.png",
-    title: "Hind Ke Sitara",
-    album: "Panchyat",
-    year: 2024,
-    artist: "Manoj Tiwari",
-    musicPath: "./assets/music/Hind Ke Sitara.mp3"
-  },
-  {
-    backgroundImage: "https://c.saavncdn.com/569/Maroon-Color-Sadiya-From-Fasal-Bhojpuri-2024-20240311190717-500x500.jpg",
-    posterUrl: "https://c.saavncdn.com/569/Maroon-Color-Sadiya-From-Fasal-Bhojpuri-2024-20240311190717-500x500.jpg",
-    title: "Maroon Color Sadiya",
-    album: "Fasal Bhojpuri",
-    year: 2024,
-    artist: "Neelkamal Singh,kalpana",
-    musicPath: "./assets/music/Maroon Color Sadiya.mp3"
-  },
-  {
     backgroundImage: "https://c.saavncdn.com/990/83-Hindi-2021-20211223195221-500x500.jpg",
     posterUrl: "https://c.saavncdn.com/990/83-Hindi-2021-20211223195221-500x500.jpg",
     title: "Lehra Do ",
