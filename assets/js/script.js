@@ -1,6 +1,33 @@
 /* All Music Information */
 const tracks = [
   {
+    backgroundImage: "https://c.saavncdn.com/624/Se-orita-English-2019-20190822022326-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/624/Se-orita-English-2019-20190822022326-500x500.jpg",
+    title: "Señorita",
+    album: "Shawn Mendes & Camila Cabello",
+    year: "2019",
+    artist: "Shawn Mendes, Camila Cabello",
+    musicPath: "./assets/music/Shawn Mendes, Camila Cabello - Señorita.mp3"
+  },
+  {
+    backgroundImage: "https://c.saavncdn.com/400/Dandelions-English-2017-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/400/Dandelions-English-2017-500x500.jpg",
+    title: "Dandelions",
+    album: "Ruth B.",
+    year: "2017",
+    artist: "Ruth B.",
+    musicPath: "./assets/music/Ruth B. - Dandelions (Audio).mp3"
+  },
+  {
+    backgroundImage: "https://c.saavncdn.com/173/Dreamland-English-2020-20200806000748-500x500.jpg",
+    posterUrl: "https://c.saavncdn.com/173/Dreamland-English-2020-20200806000748-500x500.jpg",
+    title: "Heat Waves",
+    album: "Glass Animals",
+    year: "2020",
+    artist: "Glass Animals",
+    musicPath: "./assets/music/Glass Animals - Heat Waves (Official Video).mp3"
+  },
+  {
     backgroundImage: "https://c.saavncdn.com/990/83-Hindi-2021-20211223195221-500x500.jpg",
     posterUrl: "https://c.saavncdn.com/990/83-Hindi-2021-20211223195221-500x500.jpg",
     title: "Lehra Do ",
@@ -8,7 +35,7 @@ const tracks = [
     year: 2023,
     artist: "Arijit Singh",
     musicPath: "./assets/music/Lehra Do _ Ranveer Singh, Kabir Khan _ Pritam, Arijit Singh, Kausar Munir.mp3"
-  }
+  },
 
 ];
 
